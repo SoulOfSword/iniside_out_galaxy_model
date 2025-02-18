@@ -1,4 +1,4 @@
-# iniside_out_galaxy_model
+# Inside-out Galaxy Evolution Model for Star-Forming Galaxies
 
 This thesis explores the baryonic specific angular momentum–mass–gas fraction $(j_{\mathrm{bar}} - M_{\mathrm{bar}} - f_{\mathrm{gas}})$ relation in spiral galaxies and investigates how different star formation laws (including the classical Kennicutt–Schmidt law and a version of the Boissier law) affect it.
 
@@ -12,3 +12,13 @@ A semi-analytical model is developed that:
 - Different star formation laws yield noticeable differences in **radial profiles** of gas and stars but do **not** dramatically change the overall $(j_{\mathrm{bar}} - M_{\mathrm{bar}} - f_{\mathrm{gas}})$ relation.
 - Revised laws provide a better match to observed surface densities in galaxy outskirts compared to the classical Kennicutt–Schmidt law.
 
+---
+
+**Code Implementation**
+
+The code in this repository provides a Python-based implementation of the above galaxy evolution model. It numerically solves the relevant differential equations for gas and stellar surface densities under different star formation laws, using a Runge-Kutta approach. You can configure parameters such as:
+- **Accretion history** (timescale, total baryonic mass).
+- **Star formation law** (Kennicutt–Schmidt or Boissier).
+- **Rotation curve** (flat or radially varying).
+
+Results include radial profiles of gas, stars, and star formation rates, as well as global properties like the baryonic mass, gas fraction, and specific angular momentum. These can be compared to observations for validation.
