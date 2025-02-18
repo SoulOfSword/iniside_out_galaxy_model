@@ -12,7 +12,7 @@ A semi-analytical model is developed that:
 - Different star formation laws yield noticeable differences in **radial profiles** of gas and stars but do **not** dramatically change the overall $(j_{\mathrm{bar}} - M_{\mathrm{bar}} - f_{\mathrm{gas}})$ relation.
 - Revised laws provide a better match to observed surface densities in galaxy outskirts compared to the classical Kennicutt–Schmidt law.
 
-You can read the this is [here](https://fse.studenttheses.ub.rug.nl/33339/).
+The thesis can be found [here](https://fse.studenttheses.ub.rug.nl/33339/).
 
 ---
 
