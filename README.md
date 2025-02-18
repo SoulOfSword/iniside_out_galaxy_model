@@ -25,6 +25,8 @@ The code in this repository provides a Python-based implementation of the above 
 
 Results include radial profiles of gas, stars, and star formation rates, as well as global properties like the baryonic mass, gas fraction, and specific angular momentum. These can be compared to observations for validation.
 
+model7.ipynb is the final model variation. All previous models are step-by-step additions in complexity but the results stated in the thesis all come from the final instance. Previous versions are given for reference but may be incorrect.
+
 ---
 
 **Data Sources**
