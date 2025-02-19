@@ -18,7 +18,7 @@ The thesis can be found [here](https://fse.studenttheses.ub.rug.nl/33339/).
 
 **Code Implementation**
 
-The code in this repository provides a Python-based implementation of the above galaxy evolution model. It numerically solves the relevant differential equations for gas and stellar surface densities under different star formation laws, using a Runge-Kutta approach. You can configure parameters such as:
+The code in this repository provides a Python-based implementation of the above galaxy evolution model. It numerically solves the relevant differential equations for gas and stellar surface densities under different star formation laws, using a Runge-Kutta approach. It does this through multiprocessing on multiple CPUs. You can configure parameters such as:
 - **Accretion history** (timescale or frequency, total baryonic mass).
 - **Star formation law** (Kennicutt–Schmidt (original or revised) or Boissier).
 - **Rotation curve** (flat or radially varying).
